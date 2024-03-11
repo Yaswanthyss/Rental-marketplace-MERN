@@ -1,0 +1,78 @@
+.popup {
+    position: absolute;
+    top: 380px;
+    left: 800px;
+    margin-top: auto;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    width: 1000px;
+    height: 100vh;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* Ensure popup is displayed above other elements */
+    pointer-events: none; /* Disable pointer events on the popup itself */
+    cursor: pointer;
+  }
+  
+  .popup.open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto; /* Enable pointer events when popup is open */
+  }
+  
+  .popup-inner {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .popup img {
+    width: 600px;
+    max-width: 100%;
+    /* max-height: calc(100% - 100px);  */
+    margin-top: 20px;
+  }
+  
+  /* .popup button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  } */
+  .popup button {
+    margin-top: 20px;
+    margin-right: 10px; /* Add margin between buttons */
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* Display buttons horizontally */
+  }
+  
+  /* .popup button:last-child {
+    margin-right: 0; /* Remove margin for the last button 
+  } */
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  

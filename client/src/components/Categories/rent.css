@@ -1,0 +1,55 @@
+.rentbox{
+    width: 1000px;
+    height: 650px;
+    background-image: url("bg7.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 250px;
+    
+    top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px gray,0 0 40px gray,0 0 80px gray;
+}
+
+.im img{
+    width: 400px;
+    box-shadow: 0 0 10px gray,0 0 20px gray;
+}
+.close{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.title{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+.im{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+.htitle{
+    position: absolute;
+    top: 160px;
+    left: 550px;
+}
+.hloc{
+    position: absolute;
+    top: 225px;
+    left: 550px;
+}
+.hpr{
+    position: absolute;
+    top: 280px;
+    left: 550px;
+
+}
+.btn{
+    position: absolute;
+    top: 320px;
+    left: 550px;
+
+}

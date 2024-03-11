@@ -1,0 +1,12 @@
+.cont{
+    width: 100%;
+    position: absolute;
+    top: 74px;
+    right: 0;
+    height: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+.text{
+    margin-top: 200px;
+}

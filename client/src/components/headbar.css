@@ -1,0 +1,191 @@
+.headbar{
+    width: 800px;
+    height: 70px;
+    margin-top: 80px;
+    margin-left: 250px;
+    border-radius: 40px;
+    background-image: url("bg6.jpg");
+    background-size: cover;
+    box-shadow: 0 0 5px grey,0 0 5px grey;
+    transition: 1s;
+}
+/* .headbar:hover{
+    width:805px;
+    height: 75px;
+    box-shadow: 0 0 5px grey,0 0 5px grey;
+} */
+.cart{
+    width: 60px;
+    position: absolute;
+    right: 170px;
+    top: 25px ;
+}
+.logoname{
+    position: absolute;
+    top: 35px;
+    left: 110px;
+    right: 1180px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.box{
+    width: 800px;
+    height: 70px;
+    border-radius: 30px;
+    background-image: url("bg6.jpg");
+    background-size: cover;
+    font-family: Poppins ,'san serif';
+    font-size: 17px;
+    box-shadow: 0 0 5px gray;
+}
+.searchicon{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 85px;
+    right: 400px;
+    
+}
+.headbar1 {
+    width: 90px;
+    height: 50px;
+    background-image: url("bg6.jpg");
+    background-size: cover;
+    box-shadow: 0 0 5px grey,0 0 5px grey;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.user{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    position: absolute;
+    left: 0;
+    
+}
+
+.complogo1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.card{
+    transition: 1s;
+    background-color: #E3F4F4;
+    box-shadow: 0 0 3px gray;
+}
+/* .card:hover{
+    box-shadow: 0 0 10px gray;
+    width: 18.5rem;
+} */
+.card1{
+    position: absolute;
+    top: 300px;
+    left: 60px;   
+}
+.card2{
+    position: absolute;
+    top: 300px;
+    left: 425px;
+}
+.card3{
+    position: absolute;
+    top: 300px;
+    left: 795px;
+}
+.card4{
+    position: absolute;
+    top: 300px;
+    left: 1160px;
+}
+.card5{
+    width: 330px;
+    position: absolute;
+    top: 720px;
+    left: 80px;
+    
+}
+.card6{
+    width: 330px;
+    position: absolute;
+    top: 720px;
+    left: 440px;
+    
+}
+.card7{
+    width: 330px;
+    position: absolute;
+    top: 720px;
+    left: 803px;
+    
+}
+.card8{
+    width: 330px;
+    position: absolute;
+    top: 720px;
+    left: 1172px;
+}
+
+.catbar{
+    position: relative;
+    top: 200px;
+    right: 30px;
+    left: 280px;
+    margin-left: 0px;
+    color: aquamarine;
+}
+.cat{
+    width: 40px;
+}
+.cat2{
+    width: 50px;
+}
+.cat3{
+    width: 60px;
+}
+.list-group-item{
+    height: 75px;
+}
+body{
+    overflow-x: hidden;
+    
+}
+.horizontal-scroll {
+    white-space: nowrap;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+

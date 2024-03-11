@@ -1,0 +1,47 @@
+.login{
+    margin-top: 90px; 
+    width: 400px;
+    margin-left: 100px;
+}
+
+.password{
+    margin-top: 50px;
+    width: 400px;
+    margin-left: 100px;
+}
+.title{
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #5EE6EB;
+}
+.box{
+    width: 600px;
+    height: 530px;
+    background-image: url("loginbox.jpeg");
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    transition: 1s;
+    border-radius: 15px;
+    display: inline-block;
+}
+.box:hover{
+    color:#010b13;
+    box-shadow: 0 0 10px #2196f3,0 0 10px #2196f3,0 0 10px #2196f3;
+    width:610px;
+    height: 540px;
+}
+.container{
+    margin-top: 90px;
+}
+.loginbtn{
+    width: 150px;
+    height: 50px;
+    margin-top: 80px;
+}
+body{
+    
+}
+
+.userbox{
+    /* background-color: #6E6E6E; */
+}

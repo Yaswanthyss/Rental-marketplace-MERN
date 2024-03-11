@@ -1,0 +1,11 @@
+.rentingbox{
+    width: 600px;
+    height: 650px;
+    background-image: url("bg6.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 450px;
+    top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px gray,0 0 40px gray,0 0 80px gray;
+}

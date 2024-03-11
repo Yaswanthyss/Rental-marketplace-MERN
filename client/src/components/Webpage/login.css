@@ -1,0 +1,79 @@
+.loginbox{
+    width: 600px;
+    height: 520px;
+    background-image: url('bg6.jpg'); 
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 100px;
+    right: 460px;
+    transition: 1s;
+    border-radius: 20px;
+    box-shadow: 0 0 20px gray,0 0 40px gray,0 0 80px gray;
+}
+.loginbox:hover{
+    width: 605px;
+    height: 525px;
+    box-shadow: 0 0 20px gray,0 0 40px gray,0 0 80px gray;
+}
+.login{
+    position: absolute;
+    top: 150px;
+    width: 400px;
+    margin-left: 100px;
+}
+.danger{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+    color: #FCDC2A;
+}
+.color{
+    background-color: #14BDEB;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.password{
+    position: absolute;
+    top: 250px;
+    width: 400px;
+    margin-left: 100px;
+}
+.subbtn{
+    position: absolute;
+    top: 420px;
+    right: 230px;
+    padding: 15px 20px 15px 20px;
+    width: 120px;
+    height: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #f5e6f5;
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    background-color: #D1345B;
+    border-radius: 20px;
+    transition: 1s;
+    font-size: 20px;
+}
+.subbtn:hover{
+    width: 125;
+    box-shadow: 0 0 10px #D1345B;
+}
+.title{
+    text-transform: uppercase;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+h1{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
